@@ -1,7 +1,12 @@
 package com.company;
 
 public class Maths {
-    float pi = 22/7;
+    int pi;
+
+    {
+        pi = 22 / 7;
+    }
+
     float powerOfTwo(int number){
         return number^2;
     }
@@ -12,11 +17,5 @@ public class Maths {
         return numberOne / numberTwo;
       }
 
-    public float getPi() {
-        return pi;
-    }
 
-    public void setPi(float pi) {
-        this.pi = pi;
-    }
 }
